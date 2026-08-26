@@ -1,7 +1,7 @@
-# Senior Embedded Systems & Hardware Design Engineer
+# Embedded Systems & Hardware Design Engineer
 
 ## Summary
-Hardware design engineer specializing in high-speed PCB routing, power electronics, and embedded firmware. Delivers production-grade boards from concept to manufacturing, with proven experience in industrial automation, edge AI, and high-voltage motor control.
+Hardware design engineer specializing in high-speed PCB routing, mixed signals design, power electronics, and embedded firmware. Delivers production-grade boards from concept to manufacturing, ranging from isolated industrial THT boards to complex 6-layer Single Board Computers.
 
 ## Core Technical Stack
 
