@@ -27,21 +27,18 @@ Hardware design engineer specializing in high-speed PCB routing, mixed-signal de
 - Validated cuts on 14 mm steel; reduced fabrication cost by 70%
 - Repository: [Track-Based-Industrial-CNC-Plasma-Cutting-Machine](https://github.com/EmbeddedPioneer/Track-Based-Industrial-CNC-Plasma-Cutting-Machine)
 
-### Automatic Lead-Acid Battery Charge/Discharge System (deployed)
+### Automatic Lead-Acid Battery Charge/Discharge System
 - Three-board system: isolated 34 V / 10 A charger, ESP32-S3 with LEM current/voltage sensing, relay source selection
 - LCD and touchscreen interfaces; tested on 12 V and 24 V batteries
 - Repository: [Automatic-Lead-Acid-Battery-Charge-Discharge-System](https://github.com/EmbeddedPioneer/Automatic-Lead-Acid-Battery-Charge-Discharge-System)
 
-### Military Machine Gun Electric Trigger Tester (deployed)
-- Portable diagnostic device delivering calibrated pulse to verify firing solenoids (PKT, NSV)
-- ESP32-S3 isolated logic using TLP250 gate drivers and LEM sensors; validated on live weapons
-
-### 400 V H-Bridge Motor Driver (freelance)
+### 400 V H-Bridge Motor Driver
 - Redesigned defective schematic: 4 N-channel MOSFETs, bootstrap high-side drive, freewheeling diodes on 400 V bus
 - Isolation clearances and split ground planes per safety standards
 - Repository: [400V-H-Bridge-Motor-Driver](https://github.com/EmbeddedPioneer/400V-H-Bridge-Motor-Driver)
 
 ### Additional Hardware Deliverables
+- Military Machine Gun Electric Trigger Tester
 - School attendance terminal (STM32/ESP32, 4-layer PCB)
 - Motorized standing desk controller
 - Static grass applicator
