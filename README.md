@@ -42,13 +42,24 @@ Hardware design engineer specializing in high-speed PCB routing, mixed-signal de
 - 4-layer PCB with split 3.3V rails via independent LDOs to isolate ESP32 RF transients from STM32 logic.
 - Repository: [Smart-School-Attendance-Terminal](https://github.com/EmbeddedPioneer/Smart-School-Attendance-Terminal)
 
+
+### LED Signs Controller
+- ATmega328P-based relay sequencer for retrofitting static shop signs into animated displays; 6-channel and 12-channel variants with SPDT relays for galvanic isolation, 12V/24V input support.
+- Single-layer THT PCB with 0-ohm SMD jump links to resolve routing constraints; hardware-only HMI via DIP switches and rotary potentiometer for animation patterns and 100ms–1000ms transition timing.
+- Repository: [LED-Signs-Controller](https://github.com/EmbeddedPioneer/LED-Signs-Controller)
+
+
+### APEXION 3D Printer
+- Custom Cartesian FDM system running Klipper on RAMPS 1.4 for split-computing architecture; hybrid kinematics with dual Z-axis lead screws and belt-driven X/Y axes, 250×250×180 mm build volume at 100 mm/s.
+- Reinforced MDF frame with topology-optimized ABS brackets, magnetic spring-steel build plate with ABL, and environmental enclosure for ABS/ASA processing.
+- Repository: [APEXION-3D-Printer](https://github.com/EmbeddedPioneer/APEXION-3D-Printer)
+
+
 ### Additional Hardware Deliverables
 - Military Machine Gun Electric Trigger Tester
-- School attendance terminal (STM32/ESP32, 4-layer PCB)
 - Motorized standing desk controller
 - Static grass applicator
-- Custom Cartesian 3D printer (APEXION) running Klipper
-- 10 W laser cutter, CNC EVO CEM cabinet
+- 10 W laser cutter, CNC EVO EMC cabinet
 
 ## Current Research/Focus
 Developing a Xilinx Zynq-7020 based industrial edge AI gateway with DDR3 routing and high-speed signal integrity constraints. Studying advanced digital hardware design through FEDEVEL Academy (Phil Salmony).
