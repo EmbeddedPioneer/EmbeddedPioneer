@@ -6,30 +6,22 @@
 
 ---
 
-## Summary
-
-Hardware design engineer specializing in high-speed PCB routing, mixed-signal design, power electronics, and firmware development. Designs and delivers production-ready boards from schematic to fabrication, ranging from galvanically isolated through-hole industrial boards to complex 6-layer single-board computers.
-
----
-
 ## Core Technical Stack
 
-| Domain | Technologies |
-|---|---|
-| **EDA / CAD** | KiCad, Altium Designer, EasyEDA — 1–6-layer PCBs, high-speed, mixed-signal, power, DDR3 length-matched routing |
-| **MCU / SoC / SBC** | STM32, ESP32, AVR, PIC, Raspberry Pi, Xilinx Zynq-7000 series |
-| **Firmware / CNC** | grblHAL, Marlin, Klipper |
-| **Protocols** | UART, SPI, I2C, CAN, USB, Ethernet, JTAG |
-| **Power Electronics** | SMPS, isolated supplies, mains EMI filtering (220 VAC), MOSFET/IGBT gate drivers (TLP250, bootstrap), isolated current sensing (LEM), 400 V DC bus, EMC compliance |
-| **Fabrication & Lab** | THT/SMD soldering, UV/laser PCB prototyping, oscilloscope and logic analyzer debugging, Gerber/BOM/PnP generation |
-| **Programming & Tools** | C/C++, Python, VHDL, Git, Linux, Proteus, LTspice, LaTeX |
-| **Industrial Electrical** | Low-voltage cabinet wiring, VFDs, protection devices, AC/DC motor control, diagnostics |
+- **EDA / CAD:** KiCad, Altium Designer, EasyEDA — 1–6-layer PCBs, high-speed, mixed-signal, power, DDR3 length-matched routing
+- **MCU / SoC / SBC:** STM32, ESP32, AVR, PIC, Raspberry Pi, Xilinx Zynq-7000 series
+- **Firmware / CNC Frameworks:** grblHAL, Marlin, Klipper
+- **Protocols:** UART, SPI, I2C, CAN, USB, Ethernet, JTAG
+- **Power Electronics:** SMPS and isolated supplies, transformers, mains EMI filtering (220 VAC), MOSFET/IGBT gate drivers (TLP250, bootstrap), isolated current sensing (e.g., LEM transducers), 400 V DC bus design, EMC compliance
+- **Fabrication & Lab:** THT/SMD soldering, UV/laser PCB prototyping, oscilloscope and logic analyzer debugging, Gerber, BOM, and pick-and-place file generation
+- **Programming & Tools:** C/C++, Python, VHDL, Git, Linux, Proteus, LTspice, LaTeX
+- **Industrial Electrical:** Low-voltage cabinet wiring, VFDs, protection devices, AC/DC motor control, diagnostics
 
 ---
 
 ## Open-Source Architecture & Projects
 
-### Edge AI Industrial Gateway — *In Progress*
+### Edge AI Industrial Gateway *(in progress)*
 - Xilinx Zynq-7020 based SBC: 1 GB DDR3, 16 GB eMMC, QSPI, Ethernet, CAN, USB, JTAG
 - 6-layer PCB designed in Altium with length-matched DDR3 routing
 - Repository: [Edge-AI-Industrial-Gateway](https://github.com/EmbeddedPioneer/Edge-AI-Industrial-Gateway)
@@ -82,7 +74,5 @@ Developing a Xilinx Zynq-7020 based industrial edge AI gateway with DDR3 routing
 
 ## Links
 
-| Platform | Contact |
-|---|---|
-| LinkedIn | [linkedin.com/in/blg23m](https://www.linkedin.com/in/blg23m/) |
-| Email | b.mhadi22@gmail.com |
+- LinkedIn: [linkedin.com/in/blg23m](https://www.linkedin.com/in/blg23m/)
+- Email: b.mhadi22@gmail.com
