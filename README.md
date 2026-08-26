@@ -37,6 +37,11 @@ Hardware design engineer specializing in high-speed PCB routing, mixed-signal de
 - Isolation clearances and split ground planes per safety standards
 - Repository: [400V-H-Bridge-Motor-Driver](https://github.com/EmbeddedPioneer/400V-H-Bridge-Motor-Driver)
 
+### Smart School Attendance Terminal
+- Dual-MCU architecture: STM32F411CEU6 for RFID/state handling, ESP32-WROOM-32 for Wi-Fi; offline-first SPI flash buffering with batched cloud upload.
+- 4-layer PCB with split 3.3V rails via independent LDOs to isolate ESP32 RF transients from STM32 logic.
+- Repository: [Smart-School-Attendance-Terminal](https://github.com/EmbeddedPioneer/Smart-School-Attendance-Terminal)
+
 ### Additional Hardware Deliverables
 - Military Machine Gun Electric Trigger Tester
 - School attendance terminal (STM32/ESP32, 4-layer PCB)
