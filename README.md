@@ -1,30 +1,55 @@
-# 👋 Hi, I’m Mohammed Elhadi Boughalem  
-🔧 **Embedded Systems Engineer | Maker | Innovator**
+# Senior Embedded Systems & Hardware Design Engineer
 
-I'm passionate about designing and building embedded systems that bring ideas to life. From automotive technology to CNCs, 3D printers, and IoT solutions, I enjoy merging hardware and software to solve real-world problems.
+## Summary
+Hardware design engineer specializing in high-speed PCB routing, power electronics, and embedded firmware. Delivers production-grade boards from concept to manufacturing, with proven experience in industrial automation, edge AI, and high-voltage motor control.
 
-## 🌟 What I Do  
-- **🛠️ Hardware Design:** Schematic design and PCB layout using tools like KiCad and Altium.
-- **🧑‍💻 Firmware Development:** Programming microcontrollers (STM32, AVR, ESP32) in C/C++ for real-time applications.
-- **🔗 Embedded Software:** Developing low-level drivers, implementing communication protocols (CAN, UART, SPI, I2C), and optimizing performance.
-- **⚙️ Control Systems:** Designing and implementing PID controllers and motion control algorithms.
-- **🌐 IoT Integration:** Developing solutions with wireless modules (Wi-Fi, Bluetooth, LoRa...).
-- **🔋 Power Electronics:** Creating motor drivers, power supplies, and circuits for industrial and automotive use.
-- **🧪 Testing & Debugging:** Using oscilloscopes, logic analyzers, and debuggers to troubleshoot and optimize designs.
-- **⚡ System Prototyping:** Assembling and testing hardware, validating designs, and iterating prototypes.
-- **📄 Documentation:** Writing technical documentation, schematics, and firmware workflows.
+## Core Technical Stack
 
-## 💡 What Drives Me  
-- Advancing technology in **Algeria** and supporting the maker community.  
-- Turning complex systems into simple, impactful solutions.  
-- Sharing knowledge and collaborating on open-source projects.
+- **EDA / CAD:** KiCad, Altium Designer, EasyEDA — 1–6 layer PCBs, mixed-signal, power, DDR3 length-matched routing
+- **MCU / SBC / Firmware:** STM32, ESP32, AVR, PIC, Raspberry Pi, Xilinx Zynq-7020; grblHAL, Marlin, Klipper
+- **Protocols:** UART, SPI, I2C, CAN, USB, Ethernet, JTAG
+- **Power Electronics:** SMPS and isolated supplies, transformers, EMI filtering for 220 V, MOSFET/IGBT gate drivers (TLP250, bootstrap), isolated current sensing (LEM), 400 V DC bus design, CEM compliance
+- **Fabrication & Lab:** THT/SMD soldering, UV/laser PCB prototyping, oscilloscope debugging, full manufacturing file generation
+- **Programming & Tools:** C/C++, Python, VHDL, Git, Linux, Proteus, LTspice, LaTeX
+- **Industrial Electrical:** Low-voltage cabinet wiring, VFDs, protection devices, AC/DC motor control, diagnostics
 
-## 📈 Current Focus  
-- Mastering STM32 microcontrollers (Cortex-M3, M4, M7) for high-performance and low-power designs.  
-- Expanding capabilities in PCB design for compact, high-speed, and reliable electronics. 
-- Developing electro-mechanical machines tailored to the specific needs of the Algerian market, focusing on cost-effectiveness, reliability, and scalability.
+## Open-Source Architecture & Projects
 
----
+### Edge AI Industrial Gateway (in progress)
+- Xilinx Zynq-7020 based SBC: 1 GB DDR3, 16 GB eMMC, QSPI, Ethernet, CAN, USB, JTAG
+- 6-layer PCB designed in Altium with length-matched DDR3 routing
+- Repository: [Edge-AI-Industrial-Gateway](https://github.com/EmbeddedPioneer/Edge-AI-Industrial-Gateway)
 
-🚀 **Let’s Connect!**  
-I’m open to collaborating on challenging and innovative projects. Feel free to reach out or explore my repositories!
+### Track-Based Industrial CNC Plasma Cutting Machine
+- Distributed architecture: 4 nodes — STM32F407 running grblHAL for motion, ESP32 for HMI/control, ATmega328P for isolated arc voltage PID using HCNR200 linear optocoupler, ultrasonic anti-collision
+- Full optical isolation and CEM-compliant cabinet design
+- Validated cuts on 14 mm steel; reduced fabrication cost by 70%
+- Repository: [Track-Based-Industrial-CNC-Plasma-Cutting-Machine](https://github.com/EmbeddedPioneer/Track-Based-Industrial-CNC-Plasma-Cutting-Machine)
+
+### Automatic Lead-Acid Battery Charge/Discharge System (deployed)
+- Three-board system: isolated 34 V / 10 A charger, ESP32-S3 with LEM current/voltage sensing, relay source selection
+- LCD and touchscreen interfaces; tested on 12 V and 24 V batteries
+- Repository: [Automatic-Lead-Acid-Battery-Charge-Discharge-System](https://github.com/EmbeddedPioneer/Automatic-Lead-Acid-Battery-Charge-Discharge-System)
+
+### Military Machine Gun Electric Trigger Tester (deployed)
+- Portable diagnostic device delivering calibrated pulse to verify firing solenoids (PKT, NSV)
+- ESP32-S3 isolated logic using TLP250 gate drivers and LEM sensors; validated on live weapons
+
+### 400 V H-Bridge Motor Driver (freelance)
+- Redesigned defective schematic: 4 N-channel MOSFETs, bootstrap high-side drive, freewheeling diodes on 400 V bus
+- Isolation clearances and split ground planes per safety standards
+- Repository: [400V-H-Bridge-Motor-Driver](https://github.com/EmbeddedPioneer/400V-H-Bridge-Motor-Driver)
+
+### Additional Hardware Deliverables
+- School attendance terminal (STM32/ESP32, 4-layer PCB)
+- Motorized standing desk controller
+- Static grass applicator
+- Custom Cartesian 3D printer (APEXION) running Klipper
+- 10 W laser cutter, CNC EVO CEM cabinet
+
+## Current Research/Focus
+Developing a Xilinx Zynq-7020 based industrial edge AI gateway with DDR3 routing and high-speed signal integrity constraints. Studying advanced digital hardware design through FEDEVEL Academy (Phil Salmony).
+
+## Links
+- LinkedIn: [linkedin.com/in/blg23m](https://www.linkedin.com/in/blg23m/)
+- Email: b.mhadi22@gmail.com
