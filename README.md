@@ -5,12 +5,20 @@ Hardware design engineer specializing in high-speed PCB routing, mixed-signal de
 
 ## Core Technical Stack
 
-- **EDA / CAD:** KiCad, Altium Designer, EasyEDA — 1–6 layer PCBs, high-speed, mixed-signal, power, DDR3 length-matched routing
-- **MCU / SBC / Firmware:** STM32, ESP32, AVR, PIC, Raspberry Pi, Xilinx Zynq-7020; grblHAL, Marlin, Klipper
+- **EDA / CAD:** KiCad, Altium Designer, EasyEDA — 1–6-layer PCBs, high-speed, mixed-signal, power, DDR3 length-matched routing
+
+- **MCU / SoC / SBC:** STM32, ESP32, AVR, PIC, Raspberry Pi, Xilinx Zynq
+
+- **Firmware / CNC Frameworks:** grblHAL, Marlin, Klipper
+
 - **Protocols:** UART, SPI, I2C, CAN, USB, Ethernet, JTAG
-- **Power Electronics:** SMPS and isolated supplies, transformers, EMI filtering for 220 V, MOSFET/IGBT gate drivers (TLP250, bootstrap), isolated current sensing (LEM), 400 V DC bus design, CEM compliance
-- **Fabrication & Lab:** THT/SMD soldering, UV/laser PCB prototyping, oscilloscope debugging, full manufacturing file generation
+
+- **Power Electronics:** SMPS and isolated supplies, transformers, mains EMI filtering (220 VAC), MOSFET/IGBT gate drivers (TLP250, bootstrap), isolated current sensing (e.g., LEM transducers), 400 V DC bus design, EMC compliance
+
+- **Fabrication & Lab:** THT/SMD soldering, UV/laser PCB prototyping, oscilloscope and logic analyzer debugging, Gerber, BOM, and pick-and-place file generation
+
 - **Programming & Tools:** C/C++, Python, VHDL, Git, Linux, Proteus, LTspice, LaTeX
+
 - **Industrial Electrical:** Low-voltage cabinet wiring, VFDs, protection devices, AC/DC motor control, diagnostics
 
 ## Open-Source Architecture & Projects
