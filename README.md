@@ -1,7 +1,7 @@
 # Embedded Systems & Hardware Design Engineer
 
 ## Summary
-Hardware design engineer specializing in high-speed PCB routing, mixed signals design, power electronics, and embedded firmware. Delivers production-grade boards from concept to manufacturing, ranging from isolated industrial THT boards to complex 6-layer Single Board Computers.
+Hardware design engineer specializing in high-speed PCB routing, mixed-signal design, power electronics, and firmware development. Designs and delivers production-ready boards from schematic to fabrication, ranging from galvanically isolated through-hole industrial boards to complex 6-layer single-board computers.
 
 ## Core Technical Stack
 
