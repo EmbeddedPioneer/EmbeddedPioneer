@@ -1,4 +1,4 @@
-# Embedded Systems & Hardware Design Engineer
+<h1 align="center">Embedded Systems & Hardware Design Engineer</h1>
 
 <p align="center">
   <strong>Hardware Design | PCB Routing | Power Electronics | Firmware</strong>
